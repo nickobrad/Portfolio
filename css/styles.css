@@ -59,7 +59,7 @@ nav{
     justify-content: center;
     align-items: center;
     width: 60vh;
- background-color: hotpink;
+ /* background-color: hotpink; */
     height: 60vh;
 }
 .myphoto img{
@@ -88,6 +88,8 @@ nav{
 
 .homecontent{
     display:flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 95px;
 }
 .hometext{
@@ -100,6 +102,10 @@ nav{
     justify-content: center;
     
 }
+.hometext p{
+    padding-top: 30px;
+
+}
 
 .about{
     display:flex;
@@ -107,4 +113,8 @@ nav{
 .abs-heading{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (min-width: 480px) and (max-width:800px){
+
 }
