@@ -21,7 +21,7 @@ nav{
     position: fixed;
     z-index: 1;
     width: 100%;
-    background-color:lightpink;
+    background-color:dimgray;
 }
 .mywebsitelogo img{
     height: 45px;
@@ -53,4 +53,58 @@ nav{
 .navigation-menu li{
     margin-top: 30px;
     padding:0px 30px;
+}
+.myphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+ background-color: hotpink;
+    height: 60vh;
+}
+.myphoto img{
+    width: 80%;
+    height:80%;
+}
+/* .homecontent{ 
+    width:90%;
+    display: flex;
+}
+.hometext{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: space-around;
+    width: 500px;
+    width:90%;
+}
+.hometext h1{
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+.hometext p{
+    /* padding-left: 20px; */
+
+
+.homecontent{
+    display:flex;
+    padding-top: 95px;
+}
+.hometext{
+    
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about{
+    display:flex;
+}
+.abs-heading{
+    display: flex;
+    justify-content: center;
 }
