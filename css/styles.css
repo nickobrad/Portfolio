@@ -22,5 +22,35 @@ nav{
     z-index: 1;
     width: 100%;
     background-color:lightpink;
-    
+}
+.mywebsitelogo img{
+    height: 45px;
+}
+.navigation-menu{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.navigation-menu a{
+    height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    color:lightslategray;
+    letter-spacing: 2px;
+    display:inline-block;
+}
+.movingunderline::after{
+    content:'';
+    display:block;
+    width:0;
+    height:4px;
+    background-color: palevioletred;
+    transition: 0.5s;
+}
+.movingunderline:hover::after{
+    width: 100%;
+}
+.navigation-menu li{
+    margin-top: 30px;
+    padding:0px 30px;
 }
