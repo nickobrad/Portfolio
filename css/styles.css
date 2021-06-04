@@ -1,3 +1,19 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width:max-content;
+    height: 100px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
